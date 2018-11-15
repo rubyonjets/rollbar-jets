@@ -20,13 +20,13 @@ And then execute:
 
     bundle
 
-Add the `rollbar_DSN` env variable to the `.env` file in your project.  Here's an example of what `rollbar_DSN` looks like.
+Add the `ROLLBAR_ACCESS_TOKEN` env variable to the `.env` file in your project.  Here's an example of what `ROLLBAR_ACCESS_TOKEN` looks like.
 
 .env:
 
-    rollbar_DSN=https://generated-random-user:generated-random-token@rollbar.io/project-id
+    ROLLBAR_ACCESS_TOKEN=random-token
 
-To get a `rollbar_DSN`, sign up for an account at [rollbar.io](https://rollbar.io) and create a project.  For more info on [Env Files](http://rubyonjets.com/docs/env-files/), refer to the Jets docs.
+To get a `ROLLBAR_ACCESS_TOKEN`, sign up for an account at [rollbar.io](https://rollbar.io) and create a project.  For more info on [Env Files](http://rubyonjets.com/docs/env-files/), refer to the Jets docs.
 
 ## Development
 

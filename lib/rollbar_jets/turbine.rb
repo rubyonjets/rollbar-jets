@@ -8,7 +8,7 @@ module RollbarJets
       end
     end
 
-    exception_reporter 'rollbar.capture' do |exception|
+    on_exception 'rollbar.capture' do |exception|
       Rollbar.error(exception)
     end
   end

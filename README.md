@@ -2,6 +2,8 @@
 
 [![Gem Version](https://img.shields.io/gem/v/rollbar-jets.svg)](https://rubygems.org/gems/rollbar-jets)
 
+[![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
+
 [Rollbar](https://rollbar.com/) is real-time error reporting and monitoring service.
 
 This gem adds Rollbar error reporting support to [Jets: Ruby Serverless Framework](http://rubyonjets.com/).
